@@ -1,6 +1,23 @@
 #!/bin/bash
-# fetch new ruthe strips when available
+# Copyright (c) 2012 Oliver Burger obgr_seneca@mageia.org
+#
+# This file is part of getNewNichtlustig.
+#
+# getNewNichtlustig is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# getNewNichtlustig is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with getNewNichtlustig.  If not, see <http://www.gnu.org/licenses/>.
 
+
+# fetch new nichtlustig strips when available
 # change into ruthe comic strip safe dir and clean up existing index.html files
 cd ~/Bilder/nichtlustig.de/
 rm -f main.html
